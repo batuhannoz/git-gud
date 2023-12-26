@@ -1,6 +1,6 @@
 package main
 
-// log(n)
+// O(n)
 func containsDuplicate(nums []int) bool {
     if len(nums) <= 1 {
         return false

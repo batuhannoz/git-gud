@@ -1,6 +1,6 @@
 package main
 
-// log(n)
+// O(n)
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	

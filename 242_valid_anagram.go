@@ -1,6 +1,6 @@
 package main
 
-// log(n) 
+// O(n) 
 func isAnagram(s string, t string) bool {
 	m := make(map[rune]int)
 	
