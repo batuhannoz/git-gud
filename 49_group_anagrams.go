@@ -1,7 +1,7 @@
 package main
 
 func groupAnagrams(strs []string) [][]string {
-    m := map[[26]int][]string{}
+    m := make(map[[26]int][]string)
     
     for _, s := range strs {
         k := [26]int{}
